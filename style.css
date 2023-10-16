@@ -1,0 +1,44 @@
+@charset "utf-8";
+body {
+	background-image: url('img/waves_BG_01_blue.png');
+}
+.container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+}
+ul {
+        list-style-type: disc;
+            margin-left: 20px;
+}
+
+table {
+         width: 100%;
+         border-collapse: collapse;
+         margin-top: 20px;
+}
+
+th, td {
+         border: 1px solid #000;
+         padding: 8px;
+         text-align: center;
+}
+h1.main-style {
+	padding: 0.5em;
+	color: #010101;
+	background: #eaf3ff;
+	border-bottom: solid 3px #516ab6;
+}
+
+h2.main-style {
+	padding: 0.25em 0.5em;
+	color: #494949;
+	background: transparent;
+	border-left: solid 5px #7db4e6;
+}
+
+h3.main-style {
+	margin-top: 2.5em;
+	margin-bottom: 2em;
+	position: relative;
+	padding: 0.6em;
